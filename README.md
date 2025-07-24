@@ -43,7 +43,7 @@ If you have several sensors, you may want to perform the GWC calcluation in your
 
 ## Note to ChirpStack (formerly LoraServer) users
 
-If you are using this codec with ChirpStack then change the name of the method and the orders of parameters to Decode(port, bytes)
+If you are using this codec with ChirpStack then change the name of the method and the orders of parameters to Decode(port, bytes). For ChirpStack v4, use the decoder function in decodeUplink.js. Calibration is deactivated there, as it did not produce any reasonable values for me.
 
 
 
